@@ -1,12 +1,6 @@
 import javax.net.ssl.*;
-import java.io.BufferedReader;
 import java.io.FileInputStream;
-import java.io.InputStreamReader;
-import java.net.URI;
-import java.net.URL;
 import java.security.KeyStore;
-import java.security.SecureRandom;
-import java.security.cert.X509Certificate;
 
 public class Main {
     private static final String JKS_KEYSTORE_PASSWORD = "changeit";
